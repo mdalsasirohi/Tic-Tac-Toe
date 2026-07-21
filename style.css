@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #011936;
+    text-align: center;
+}
+.winner{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    background: linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        green,
+        cyan,
+        blue,
+        violet,
+        red
+    );
+    background-size: 300%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 4s linear infinite;
+}
+@keyframes rainbow{
+    from{background-position: 0%;}
+    to{background-position: 300%;}
+}
+h1{
+    margin-top: 20px;
+    color: rgb(22, 218, 218);
+    font-size: 50px;
+}
+.gridcont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    margin: 5%;
+    height: 350px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.box{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ed254e;
+    height: 100px;
+    width:100px;
+    background-color: #f9dc5c;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px black;
+    border:none;
+}
+#reset{
+    font-size: 15px;
+    height: 50px;
+    width: 110px;
+    padding:5px;
+    background-color: #465362;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    color: beige;
+    border:none;
+}
+.box:hover{
+    background-color: #fee369;
+    box-shadow: 0px 0px 10px #f9dc5c;
+}
+#reset:hover{
+    background-color: #627285;
+}
