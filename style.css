@@ -83,3 +83,66 @@ h1{
 #reset:hover{
     background-color: #627285;
 }
+
+@media screen and (min-width: 360px) {
+    body{
+        margin-top: 200px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .box{
+        font-size: 55px;
+        height: 80px;
+        width: 80px;
+    }
+    .grid{
+        height: 300px;
+        width: 300px;
+    }
+    #reset{
+        height: 40px;
+    }
+}
+@media screen and (min-width: 768px) {
+    body{
+        margin-top: 200px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .box{
+        font-size: 60px;
+        height: 90px;
+        width: 90px;
+    }
+    .grid{
+        height: 350px;
+        width: 350px;
+    }
+    #reset{
+        height: 50px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    body{
+        margin-top: 150px;
+    }
+    h1{
+        font-size: 65px;
+    }
+    .box{
+        font-size: 90px;
+        height: 110px;
+        width: 110px;
+    }
+    .grid{
+        height: 400px;
+        width: 400px;
+    }
+    #reset{
+        height: 60px;
+        width: 150px;
+        font-size: 20px;
+    }
+}
