@@ -12,6 +12,7 @@ A simple and interactive **Tic-Tac-Toe game** built using **HTML, CSS, and JavaS
 * Score tracking
 * Reset game functionality
 * Simple and user-friendly interface
+* Responsive for all devices
 
 ## 🛠️ Technologies Used
 
@@ -45,7 +46,6 @@ This project helped me practice JavaScript fundamentals, including DOM manipulat
 
 * Add a computer/AI opponent
 * Add difficulty levels
-* Improve responsive design
 * Add animations and sound effects
 * Add a player name feature
 
